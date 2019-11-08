@@ -1,20 +1,12 @@
-package com.dqqdo.androidscreen.utils;
+package com.khch.androidscreen.utils;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
+import java.io.*;
 
 public class DimensUtils {
 
-    // 800*480
-    private static int value_stand = 480;
-
     public static void outContent(File desFile, float scale, float scale1) throws IOException {
 
-        BufferedWriter bw = null;
+        BufferedWriter bw;
         FileOutputStream fos;
 
         fos = new FileOutputStream(desFile);
@@ -29,7 +21,6 @@ public class DimensUtils {
         for (int i = 1; i < 1000; i++) {
             float pxValue = scale * i;
 
-            double d = 3.14159;
             String strPXValue = df.format(pxValue);
 
             String contentLine = "<dimen name=\"dimen_" + i + "_dip\">"
@@ -39,7 +30,6 @@ public class DimensUtils {
         for (int i = 1; i < 1000; i++) {
             float pxValue = scale1 * i;
 
-            double d = 3.14159;
             String strPXValue = df.format(pxValue);
 
             String contentLine = "<dimen name=\"dimen_375_" + i + "_dip\">"

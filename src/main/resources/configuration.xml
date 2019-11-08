@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pixelcollection>
+    <standardpixel value="750"/>
+    <standardpixel value="800"/>
+    <standardpixel value="375"/>
+
+    <pixel value="hdpi-960x540"/>
+    <pixel value="hdpi-1024x600"/>
+    <pixel value="hdpi-1280x720"/>
+    <pixel value="ldpi-400x240"/>
+    <pixel value="ldpi-480x320"/>
+    <pixel value="mdpi-800x480"/>
+    <pixel value="mdpi-800x600"/>
+    <pixel value="mdpi-1024x600"/>
+    <pixel value="mdpi-1024x768"/>
+    <pixel value="mdpi-1280x720"/>
+    <pixel value="xhdpi-960x640"/>
+    <pixel value="xhdpi-1184x720"/>
+    <pixel value="xhdpi-1280x720"/>
+    <pixel value="xhdpi-1280x800"/>
+    <pixel value="xhdpi-1776x1080"/>
+    <pixel value="xhdpi-1920x1080"/>
+    <pixel value="xxxhdpi-2772x1440"/>
+    <pixel value="xxxhdpi-2880x1440"/>
+    <pixel value="xxxhdpi-2560x1440"/>
+    <pixel value="xxxhdpi-1x1"/>
+</pixelcollection>
